@@ -1,0 +1,12 @@
+
+<FeatureType>esriFTSimple</FeatureType>
+<ShapeFieldName>Shape</ShapeFieldName>
+<HasM>false</HasM>
+<HasZ>false</HasZ>
+<HasSpatialIndex>true</HasSpatialIndex>
+<Extent xsi:type='esri:EnvelopeN' />
+<SpatialReference xsi:type='esri:GeographicCoordinateSystem'>
+    <WKID>4258</WKID>
+</SpatialReference>
+<AreaFieldName />
+<LengthFieldName />

@@ -1,0 +1,11 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>vertical_scope</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>20</Length>
+    <Domain xsi:type='esri:CodedValueDomain'>
+        <DomainName>VerticalScope</DomainName>
+        <Owner>msp</Owner>
+    </Domain>
+</Field>

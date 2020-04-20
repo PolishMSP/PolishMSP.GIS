@@ -1,0 +1,195 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>MspSeaUse</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>MspSeaUse</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>CO2</Name>
+            <Code xsi:type='xs:string'>extraction-co2</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>aquaculture</Name>
+            <Code xsi:type='xs:string'>aquaculture</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>fishing</Name>
+            <Code xsi:type='xs:string'>fishing</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>installations and infrastructures</Name>
+            <Code xsi:type='xs:string'>installations</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>maritime transport routes and traffic flows</Name>
+            <Code xsi:type='xs:string'>transport</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>raw material extraction areas</Name>
+            <Code xsi:type='xs:string'>extraction</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>scientific research</Name>
+            <Code xsi:type='xs:string'>research</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>tourism</Name>
+            <Code xsi:type='xs:string'>tourism</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>underwater cultural heritage</Name>
+            <Code xsi:type='xs:string'>heritage</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>future reservation</Name>
+            <Code xsi:type='xs:string'>future</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>fish</Name>
+            <Code xsi:type='xs:string'>aquaculture-fish</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>mussel</Name>
+            <Code xsi:type='xs:string'>aquaculture-mussel</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>plant</Name>
+            <Code xsi:type='xs:string'>aquaculture-plant</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>offshore wind farm</Name>
+            <Code xsi:type='xs:string'>installations-owf</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>wave energy</Name>
+            <Code xsi:type='xs:string'>installations-wave</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>platform</Name>
+            <Code xsi:type='xs:string'>installations-platform</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>tunnel</Name>
+            <Code xsi:type='xs:string'>installations-tunnel</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>bridge</Name>
+            <Code xsi:type='xs:string'>installations-bridge</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>recommended route</Name>
+            <Code xsi:type='xs:string'>transport-recommended</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>deep water route</Name>
+            <Code xsi:type='xs:string'>transport-deep</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>traffic flow</Name>
+            <Code xsi:type='xs:string'>transport-flow</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>traffic separation scheme</Name>
+            <Code xsi:type='xs:string'>transport-tss</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>safety zone</Name>
+            <Code xsi:type='xs:string'>transport-safety</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>anchorage</Name>
+            <Code xsi:type='xs:string'>transport-anchorage</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>nature conservation sites</Name>
+            <Code xsi:type='xs:string'>nature-ncs</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>species conservation sites</Name>
+            <Code xsi:type='xs:string'>nature-scs</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>protected areas</Name>
+            <Code xsi:type='xs:string'>nature-pa</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>biodiversity</Name>
+            <Code xsi:type='xs:string'>nature-biodiversity</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>spawning area</Name>
+            <Code xsi:type='xs:string'>nature-spawning</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>green infrastructure</Name>
+            <Code xsi:type='xs:string'>nature-infrastructure</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>oil</Name>
+            <Code xsi:type='xs:string'>extraction-oil</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>sand and gravel</Name>
+            <Code xsi:type='xs:string'>extraction-sand</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>gas</Name>
+            <Code xsi:type='xs:string'>extraction-gas</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>recreation areas</Name>
+            <Code xsi:type='xs:string'>tourism-recreation</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>leisure  boating</Name>
+            <Code xsi:type='xs:string'>tourism-boating</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>landscape protection</Name>
+            <Code xsi:type='xs:string'>heritage-landscape</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>port</Name>
+            <Code xsi:type='xs:string'>other-port</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>dredging</Name>
+            <Code xsi:type='xs:string'>other-dredging</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>dumping</Name>
+            <Code xsi:type='xs:string'>other-dumping</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>wreck</Name>
+            <Code xsi:type='xs:string'>heritage-wreck</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>nature and species conservation</Name>
+            <Code xsi:type='xs:string'>nature</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>military areas</Name>
+            <Code xsi:type='xs:string'>military</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>electricity cable</Name>
+            <Code xsi:type='xs:string'>line-electricity</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>military training areas</Name>
+            <Code xsi:type='xs:string'>military-training</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>submarine cable and pipeline routes</Name>
+            <Code xsi:type='xs:string'>line</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>telecom cable</Name>
+            <Code xsi:type='xs:string'>line-telecom</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

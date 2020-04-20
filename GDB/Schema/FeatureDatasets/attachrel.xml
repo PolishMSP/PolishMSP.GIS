@@ -1,0 +1,67 @@
+
+<DataElement xsi:type='esri:DEFeatureDataset'>
+    <CatalogPath>/FD=attachrel</CatalogPath>
+    <Name>attachrel</Name>
+
+    <DatasetType>esriDTFeatureDataset</DatasetType>
+    <DSID>3671</DSID>
+    <Extent xsi:type='esri:EnvelopeN' />
+    <SpatialReference xsi:type='esri:GeographicCoordinateSystem'>
+        <WKID>4258</WKID>
+    </SpatialReference>
+
+    <Children xsi:type='esri:ArrayOfDataElement'>
+
+        <DataElement xsi:type='esri:DERelationshipClass'>
+            <CatalogPath>/FD=attachrel/RC=submission__ATTACHREL</CatalogPath>
+            <Name>submission__ATTACHREL</Name>
+            <ChildrenExpanded>false</ChildrenExpanded>
+            <DatasetType>esriDTRelationshipClass</DatasetType>
+            <DSID>421</DSID>
+
+            <CLSID></CLSID>
+            <ExtensionProperties xsi:type='esri:PropertySet'>
+                <PropertyArray xsi:type='esri:ArrayOfPropertySetProperty'></PropertyArray>
+            </ExtensionProperties>
+
+            <Cardinality>esriRelCardinalityOneToMany</Cardinality>
+            <Notification>esriRelNotificationNone</Notification>
+            <IsAttributed>false</IsAttributed>
+            <IsComposite>true</IsComposite>
+
+            <OriginClassNames xsi:type='esri:Names'>
+                <Name>submission</Name>
+            </OriginClassNames>
+            <DestinationClassNames xsi:type='esri:Names'>
+                <Name>submission__ATTACH</Name>
+            </DestinationClassNames>
+
+            <KeyType>esriRelKeyTypeSingle</KeyType>
+            <ClassKey>esriRelClassKeyUndefined</ClassKey>
+            <ForwardPathLabel>attachment</ForwardPathLabel>
+            <BackwardPathLabel>object</BackwardPathLabel>
+            <IsReflexive>false</IsReflexive>
+
+            <OriginClassKeys xsi:type='esri:ArrayOfRelationshipClassKey'>
+                <RelationshipClassKey xsi:type='esri:RelationshipClassKey'>
+                    <ObjectKeyName>globalid</ObjectKeyName>
+                    <ClassKeyName></ClassKeyName>
+                    <KeyRole>esriRelKeyRoleOriginPrimary</KeyRole>
+                </RelationshipClassKey>
+                <RelationshipClassKey xsi:type='esri:RelationshipClassKey'>
+                    <ObjectKeyName>rel_globalid</ObjectKeyName>
+                    <ClassKeyName></ClassKeyName>
+                    <KeyRole>esriRelKeyRoleOriginForeign</KeyRole>
+                </RelationshipClassKey>
+            </OriginClassKeys>
+
+            <RelationshipRules xsi:type='esri:ArrayOfRelationshipRule'></RelationshipRules>
+            <IsAttachmentRelationship>true</IsAttachmentRelationship>
+            <ChangeTracked>false</ChangeTracked>
+            <Fields xsi:type='esri:Fields'>
+                <FieldArray xsi:type='esri:ArrayOfField'></FieldArray>
+            </Fields>
+        </DataElement>
+
+    </Children>
+</DataElement>

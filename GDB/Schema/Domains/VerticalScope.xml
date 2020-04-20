@@ -1,0 +1,31 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>VerticalScope</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>VerticalScope</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>air</Name>
+            <Code xsi:type='xs:string'>air</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>water surface</Name>
+            <Code xsi:type='xs:string'>surface</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>water</Name>
+            <Code xsi:type='xs:string'>water</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>seabed</Name>
+            <Code xsi:type='xs:string'>seabed</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>underground</Name>
+            <Code xsi:type='xs:string'>underground</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

@@ -1,0 +1,63 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>SubmissionAdoptionStatus</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>SubmissionAdoptionStatus</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>W trakcie weryfikacji</Name>
+            <Code xsi:type='xs:string'>verifying</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Wymaga uzupełnienia</Name>
+            <Code xsi:type='xs:string'>verifying-missing-info</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Wycofano</Name>
+            <Code xsi:type='xs:string'>withdrawn</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Wycofano - zastąpiono nowym wnioskiem</Name>
+            <Code xsi:type='xs:string'>withdrawn-replaced</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Odrzucono</Name>
+            <Code xsi:type='xs:string'>rejected</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Odrzucono - złożono po terminie</Name>
+            <Code xsi:type='xs:string'>rejected-deadline</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Odrzucono - poza obszarem planu</Name>
+            <Code xsi:type='xs:string'>rejected-outside</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Odrzucono - brak potwierdzenia aktualności</Name>
+            <Code xsi:type='xs:string'>rejected-confirmation</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Odrzucono - brak wymaganych dokumentów</Name>
+            <Code xsi:type='xs:string'>rejected-missing-info</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Nie uwzględniono</Name>
+            <Code xsi:type='xs:string'>refused</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Udzielono wyjaśnień</Name>
+            <Code xsi:type='xs:string'>explained</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Uwzględniono częściowo</Name>
+            <Code xsi:type='xs:string'>adopted-partially</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Uwzględniono</Name>
+            <Code xsi:type='xs:string'>adopted</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

@@ -1,0 +1,49 @@
+
+<DataElement xsi:type='esri:DEFeatureClass'>
+    <CatalogPath>/FC=functional_area</CatalogPath>
+    <Name>functional_area</Name>
+    <DatasetType>esriDTFeatureClass</DatasetType>
+    <DSID>17</DSID>
+    <CLSID>{52353152-891A-11D0-BEC6-00805F7C4268}</CLSID>
+
+    &sys_fields_config;
+    &shape_fields_config;
+    <ShapeType>esriGeometryPolygon</ShapeType>
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+
+            &shape_pg;
+            &objectid;
+            &globalid;
+            &gid;
+
+            &area_no;
+            &area_no_old;
+            &area_variant;
+            &area_nov;
+            &area_id;
+            &area_label;
+
+            &function_code;         <!-- Obsolete: it should be gathered from related regulation_unit table  -->
+            &description;           <!-- Obsolete: it should be gathered from related regulation_unit table  -->
+
+            &allowed_function;      <!-- It will be filled with functions from regulation_unit table -->
+            &restricted_function;   <!-- It will be filled with functions from regulation_unit table -->
+            &forbidden_function;    <!-- It will be filled with functions from regulation_unit table -->
+
+            &geod_area;
+            &valid_from_to;
+            <!--  vertical_scope:   It will be gathered by from regulation_unit table -->
+            <!--  time_scope:       It will be gathered by from regulation_unit table -->
+
+            &plan_id;
+            &lex_id;         
+            &msp_desg;
+
+            &notes;   
+            &editor_tracking;
+
+        </FieldArray>
+    </Fields>
+</DataElement>

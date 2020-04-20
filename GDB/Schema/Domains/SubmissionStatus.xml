@@ -1,0 +1,19 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>SubmissionStatus</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>SubmissionStatus</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>W trakcie składania</Name>
+            <Code xsi:type='xs:string'>in-progress</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Złożony</Name>
+            <Code xsi:type='xs:string'>completed</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

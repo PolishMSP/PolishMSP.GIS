@@ -1,0 +1,7 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>notes</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>22000</Length>
+</Field>

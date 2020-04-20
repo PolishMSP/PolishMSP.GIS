@@ -1,0 +1,90 @@
+
+<DataElement xsi:type='esri:DETable'>
+    <CatalogPath>/OC=submission</CatalogPath>
+    <Name>submission</Name>
+    <DatasetType>esriDTTable</DatasetType>
+    <DSID>20</DSID>
+    <CLSID>{7A566981-C114-11D2-8A28-006097AFF44E}</CLSID>
+
+    &sys_fields_config;
+    <RelationshipClassNames xsi:type='esri:Names'>
+        <Name>submission__ATTACHREL</Name>
+    </RelationshipClassNames>
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+
+            &objectid;
+            &globalid;
+            &gid;
+
+            <Field xsi:type='esri:Field'>
+                <Name>org_id</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>false</IsNullable>
+                <Length>50</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>doc_date</Name>
+                <Type>esriFieldTypeDate</Type>
+                <IsNullable>true</IsNullable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>doc_ref_number</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>200</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>use_constraints</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>200</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>submission_date</Name>
+                <Type>esriFieldTypeDate</Type>
+                <IsNullable>true</IsNullable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>submission_ref_number</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>submission_id</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length>
+                <!-- 
+                    For internal use only by the contractor.
+                    -->
+            </Field>
+            
+            &submission_status;
+
+            <Field xsi:type='esri:Field'>
+                <Name>submission_type</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>20</Length>
+                <DefaultValue xsi:type='xs:string'>proposal</DefaultValue>
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>SubmissionType</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+            </Field>
+
+            &notes;            
+            &editor_tracking;
+            
+        </FieldArray>
+    </Fields>
+</DataElement>

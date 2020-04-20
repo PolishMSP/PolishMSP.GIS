@@ -1,0 +1,12 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>submission_status</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>20</Length>
+    <DefaultValue xsi:type='xs:string'>in-progress</DefaultValue>
+    <Domain xsi:type='esri:CodedValueDomain'>
+        <DomainName>SubmissionStatus</DomainName>
+        <Owner>msp</Owner>
+    </Domain>
+</Field>

@@ -1,0 +1,6 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>area_no</Name>
+    <Type>esriFieldTypeInteger</Type>
+    <IsNullable>true</IsNullable>
+</Field>

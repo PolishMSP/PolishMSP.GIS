@@ -1,0 +1,8 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>forbidden_function</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>2000</Length>
+    <!-- It will be filled with functions from regulation_unit table -->
+</Field>

@@ -1,0 +1,23 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>RegulationType</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>RegulationType</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>funkcja dopuszczalna</Name>
+            <Code xsi:type='xs:string'>allowed</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>funkcja ograniczona</Name>
+            <Code xsi:type='xs:string'>restricted</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>funkcja zakazana</Name>
+            <Code xsi:type='xs:string'>forbidden</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

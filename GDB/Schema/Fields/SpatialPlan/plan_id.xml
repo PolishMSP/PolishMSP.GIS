@@ -1,0 +1,7 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>plan_id</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>50</Length>
+</Field>

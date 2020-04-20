@@ -1,0 +1,31 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>StakeholderRole</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>ParticipantRole</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>twórca</Name>
+            <Code xsi:type='xs:string'>developing-party</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>organ współtworzący</Name>
+            <Code xsi:type='xs:string'>agreement-party</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>organ uzgadniający</Name>
+            <Code xsi:type='xs:string'>approving-party</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>organ opiniujący</Name>
+            <Code xsi:type='xs:string'>consulting-party</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>interesariusz</Name>
+            <Code xsi:type='xs:string'>participant</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

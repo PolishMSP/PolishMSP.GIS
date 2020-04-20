@@ -1,0 +1,7 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>area_variant</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>8</Length>
+</Field>

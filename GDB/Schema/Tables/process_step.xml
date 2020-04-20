@@ -1,0 +1,26 @@
+
+<DataElement xsi:type='esri:DETable'>
+    <CatalogPath>/OC=process_step</CatalogPath>
+    <Name>process_step</Name>
+    <DatasetType>esriDTTable</DatasetType>
+    <DSID>19</DSID>
+    <CLSID>{7A566981-C114-11D2-8A28-006097AFF44E}</CLSID>
+
+    &sys_fields_config;
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+        
+            &objectid;
+            &globalid;
+
+            &ref_no_pattern;
+            &process_step_code;
+            &name;
+            &description;
+            
+            &editor_tracking;
+
+        </FieldArray>
+    </Fields>
+</DataElement>

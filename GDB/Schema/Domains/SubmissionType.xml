@@ -1,0 +1,27 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>SubmissionType</DomainName>
+    <Description>SubmissionType</Description>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>wniosek do uwzględnienia w projekcie panu</Name>
+            <Code xsi:type='xs:string'>proposal</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>uwaga dot. projektu planu</Name>
+            <Code xsi:type='xs:string'>comment</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>opinia</Name>
+            <Code xsi:type='xs:string'>opinion</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>uzgodnienie</Name>
+            <Code xsi:type='xs:string'>arrangement</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

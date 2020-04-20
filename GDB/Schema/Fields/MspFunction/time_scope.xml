@@ -1,0 +1,11 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>time_scope</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>20</Length>
+    <Domain xsi:type='esri:CodedValueDomain'>
+        <DomainName>TimeScope</DomainName>
+        <Owner>msp</Owner>
+    </Domain>
+</Field>

@@ -1,0 +1,7 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>lex_id</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>200</Length>
+</Field>

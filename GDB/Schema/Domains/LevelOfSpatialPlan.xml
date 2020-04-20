@@ -1,0 +1,43 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>LevelOfSpatialPlan</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>LevelOfSpatialPlan</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>plan at municipal level</Name>
+            <Code xsi:type='xs:string'>local</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>plan at regional level</Name>
+            <Code xsi:type='xs:string'>regional</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>plan at Member State level</Name>
+            <Code xsi:type='xs:string'>national</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>other level of spatial plan</Name>
+            <Code xsi:type='xs:string'>other</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>a plan that covers only part of a municipality</Name>
+            <Code xsi:type='xs:string'>infraLocal</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>a plan that overlaps several municipalities</Name>
+            <Code xsi:type='xs:string'>supraLocal</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>a plan that overlaps several infra-administrative units</Name>
+            <Code xsi:type='xs:string'>infraRegional</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>a plan that overlaps several administrative regions</Name>
+            <Code xsi:type='xs:string'>supraRegional</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

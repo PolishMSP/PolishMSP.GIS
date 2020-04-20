@@ -1,0 +1,35 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>IssueStatus</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>IssueStatus</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>verifing - issue is being investigated</Name>
+            <Code xsi:type='xs:string'>verifying</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>open - identified, but no action has yet been taken</Name>
+            <Code xsi:type='xs:string'>open</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>implementing</Name>
+            <Code xsi:type='xs:string'>implementing</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>resolved</Name>
+            <Code xsi:type='xs:string'>resolved</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>closed (by issuer)</Name>
+            <Code xsi:type='xs:string'>closed</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>rejected (by manager)</Name>
+            <Code xsi:type='xs:string'>rejected</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

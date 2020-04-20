@@ -1,0 +1,35 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>SubmissionProjectStatus</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>SubmissionProjectStatus</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Dołączony do wniosku</Name>
+            <Code xsi:type='xs:string'>supplied</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Nie wymagany</Name>
+            <Code xsi:type='xs:string'>not-required</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Nie wymagany (przedsięwzięcie zrealizowane)</Name>
+            <Code xsi:type='xs:string'>not-required-completed</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Nie wymagany (przedsięwzięcie posiada aktualne pozwolenie)</Name>
+            <Code xsi:type='xs:string'>not-required-permission</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Dołączony do innego wniosku</Name>
+            <Code xsi:type='xs:string'>supplied-ref</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Wymaga uzupełnienia</Name>
+            <Code xsi:type='xs:string'>requires-further-info</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

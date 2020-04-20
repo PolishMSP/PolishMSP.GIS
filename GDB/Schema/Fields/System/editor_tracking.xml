@@ -1,0 +1,30 @@
+
+            <Field xsi:type='esri:Field'>
+                <Name>created_user</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>255</Length>
+                <Editable>false</Editable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>created_date</Name>
+                <Type>esriFieldTypeDate</Type>
+                <IsNullable>true</IsNullable>
+                <Editable>false</Editable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>last_edited_user</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>255</Length>
+                <Editable>false</Editable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>last_edited_date</Name>
+                <Type>esriFieldTypeDate</Type>
+                <IsNullable>true</IsNullable>
+                <Editable>false</Editable>
+            </Field>

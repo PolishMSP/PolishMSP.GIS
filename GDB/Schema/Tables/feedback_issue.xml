@@ -1,0 +1,48 @@
+
+<DataElement xsi:type='esri:DETable'>
+    <CatalogPath>/OC=feedback_issue</CatalogPath>
+    <Name>feedback_issue</Name>
+    <DatasetType>esriDTTable</DatasetType>
+    <DSID>13</DSID>
+    <CLSID>{7A566981-C114-11D2-8A28-006097AFF44E}</CLSID>
+    <!-- 
+        Anyone can submit an issue. Issue can be realted to
+        everything: priority_area, regulation_unit, ... 
+    -->
+
+    <!-- 
+        TODO: Add feedback_category table (gid, name, description)
+     -->
+
+    &sys_fields_config;
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+
+            &objectid;
+            &globalid;
+            &gid;
+            
+            &ref_gid;
+            &description;
+            &number; <!--  Issue number similar to Git issue number. It could be gathered from objectid.   -->
+            &issue_status;
+            &submission_status;
+            &rel_gid;   <!--   Related issue gid  -->
+            &rel_type;
+            &resolver_id;
+            
+            &editor_tracking;
+
+        </FieldArray>
+    </Fields>
+
+
+    <Indexes xsi:type='esri:Indexes'>
+        <IndexArray xsi:type='esri:ArrayOfIndex'>
+            &ref_gid_index;            
+            &rel_gid_index;          
+        </IndexArray>
+    </Indexes>
+    
+</DataElement>

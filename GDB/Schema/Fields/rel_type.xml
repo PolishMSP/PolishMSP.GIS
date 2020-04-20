@@ -1,0 +1,7 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>rel_type</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>20</Length>
+</Field>

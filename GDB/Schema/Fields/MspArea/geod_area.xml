@@ -1,0 +1,6 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>geod_area</Name>
+    <Type>esriFieldTypeDouble</Type>
+    <IsNullable>true</IsNullable>
+</Field>

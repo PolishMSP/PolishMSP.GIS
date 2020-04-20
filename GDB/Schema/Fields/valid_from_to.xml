@@ -1,0 +1,12 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>valid_from</Name>
+    <Type>esriFieldTypeDate</Type>
+    <IsNullable>true</IsNullable>
+</Field>
+
+<Field xsi:type='esri:Field'>
+    <Name>valid_to</Name>
+    <Type>esriFieldTypeDate</Type>
+    <IsNullable>true</IsNullable>
+</Field>

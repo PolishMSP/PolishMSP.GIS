@@ -1,0 +1,197 @@
+
+<DataElement xsi:type='esri:DETable'>
+    <CatalogPath>/OC=regulation_unit</CatalogPath>
+    <Name>regulation_unit</Name>
+    <DatasetType>esriDTTable</DatasetType>
+    <DSID>8</DSID>
+    <CLSID>{7A566981-C114-11D2-8A28-006097AFF44E}</CLSID>
+
+    &sys_fields_config;
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+        
+            &objectid;
+            &globalid;
+            &gid;
+
+            <!-- 
+                When area_gid==null this regulation_unit will be valid for
+                whole spatial_plan area.
+            -->
+            &area_gid;
+
+            <Field xsi:type='esri:Field'>
+                <Name>priority_gid</Name>
+                <Type>esriFieldTypeGUID</Type>
+                <IsNullable>true</IsNullable>
+                <!-- 
+                    It will be used only for regulation_unit in functional_area
+                    wchich is valid only when it covers specific priority_area:
+                    - area_gid -> must link to functional_area
+                    - regulation_unit is valid only in area of intersection
+                        of functional_area with priority_area
+                -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>priority_code</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length>
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>MspAreaFunction</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+                <!-- 
+                    Valid only if (area_gid == null) or (area_gid != priority_gid).
+
+                    This regulation is valid for all priority functions == priority_code
+
+                    OR
+
+                    It will be used only for regulation_unit in functional_area
+                    wchich is valid only when it covers priority_area with
+                    specific function_code:
+                    - area_gid -> must link to functional_area
+                    - regulation_unit is valid only in area of intersection
+                        of functional_area with priority_area.function_code==priority_code
+                -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>allowed_code</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length> <!-- Provide space for multiple codes -->
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>MspAreaFunction</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+                <!-- 
+                    Valid only if (area_gid == null).  
+                    This regulation is valid for all allowed functions == allowed_code
+                -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>restricted_code</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length> <!-- Provide space for multiple codes -->
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>MspAreaFunction</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+                <!-- 
+                    Valid only if (area_gid == null).  
+                    This regulation is valid for all restricted functions == restricted_code
+                -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>forbidden_code</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length> <!-- Provide space for multiple codes -->
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>MspAreaFunction</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+                <!-- 
+                    Valid only if (area_gid == null).  
+                    This regulation is valid for all forbidden functions == forbidden_code
+                -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>cat_code</Name>
+                <Type>esriFieldTypeInteger</Type>
+                <IsNullable>true</IsNullable>
+                <DefaultValue xsi:type='xs:double'>1</DefaultValue>
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>RegulationCategory</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+                <!-- 
+                    1. Oznaczenie literowe, 
+                    2. Numer akwenu, 
+                    3. Opis położenia, 
+                    4. Pole powierzchni,
+                    5. Funkcja podstawowa, 
+                    6. Funkcja dopuszczalna, 
+                    71. Zakaz, 
+                    72. Ograniczenie,
+                    8. Inwestycje celu publicznego, Warunki
+                    ...
+                 -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>cat_type</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length>
+                <!-- 
+                    The same as cat_code but without internal ArcGIS Subtype feature.
+                 -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>cat_subtype</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length>
+                <!-- 
+                    9 (Warunki): 
+                        ochrona środowiska, 
+                        dziedzictwo kulturowe, 
+                        rybołówstwo i akwakultura, 
+                        ...
+                    11 (Zasady korzystania): 
+                        formy ochrony przyrody, 
+                        strefy zamknięte dla żeglugi, 
+                        ...
+                 -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>regulation_type</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>20</Length>
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>RegulationType</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+                <!-- 
+                    allowed, restricted, forbidden
+                    It will be set automatically after every cat_code change.
+                 -->
+            </Field>
+
+            
+            &function_code;  <!-- will be valid only for cat_code in (5,6,71,72) -->
+            &description;
+            &sort_val;
+
+            &time_scope;
+            &vertical_scope;
+            &lex_id;
+            
+            &notes;            
+            &editor_tracking;
+
+        </FieldArray>
+    </Fields>
+
+
+    <Indexes xsi:type='esri:Indexes'>
+        <IndexArray xsi:type='esri:ArrayOfIndex'>
+            &area_gid_index;
+            &priority_gid_index;
+            &priority_code_index;
+        </IndexArray>
+    </Indexes>
+
+</DataElement>

@@ -1,0 +1,7 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>function_group</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>50</Length>
+</Field>

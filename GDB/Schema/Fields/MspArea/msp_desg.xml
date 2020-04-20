@@ -1,0 +1,45 @@
+
+
+<!-- Fields related to HELCOM/VASAB MSP Output Data guidelines -->
+
+<Field xsi:type='esri:Field'>
+    <Name>msp_priority</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>2000</Length>
+</Field>
+
+<Field xsi:type='esri:Field'>
+    <Name>msp_reserved</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>2000</Length>
+</Field>
+
+<Field xsi:type='esri:Field'>
+    <Name>msp_allowed</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>2000</Length>
+</Field>
+
+<Field xsi:type='esri:Field'>
+    <Name>msp_restricted</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>2000</Length>
+</Field>
+
+<Field xsi:type='esri:Field'>
+    <Name>msp_forbidden</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>2000</Length>
+</Field>
+
+<Field xsi:type='esri:Field'>
+    <Name>msp_use_dsc</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>2000</Length>
+</Field>

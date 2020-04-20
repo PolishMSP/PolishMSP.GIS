@@ -1,0 +1,87 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>MspAreaFunction</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>MspAreaFunction</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>I - Infrastruktura techniczna</Name>
+            <Code xsi:type='xs:string'>I</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>O - Ochrona środowiska i przyrody</Name>
+            <Code xsi:type='xs:string'>O</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>D - Dziedzictwo kulturowe</Name>
+            <Code xsi:type='xs:string'>D</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>R - Rybołówstwo</Name>
+            <Code xsi:type='xs:string'>R</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>A - Akwakultura</Name>
+            <Code xsi:type='xs:string'>A</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>E - Pozyskiwanie energii odnawialnej</Name>
+            <Code xsi:type='xs:string'>E</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>K - Poszukiwanie, rozpoznawanie złóż kopalin oraz wydobywanie kopalin ze złóż</Name>
+            <Code xsi:type='xs:string'>K</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>S - Turystyka, sport i rekreacja</Name>
+            <Code xsi:type='xs:string'>S</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>B - Obronność i bezpieczeństwo państwa</Name>
+            <Code xsi:type='xs:string'>B</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>T - Transport</Name>
+            <Code xsi:type='xs:string'>T</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>C - Ochrona brzegów</Name>
+            <Code xsi:type='xs:string'>C</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>P - Rezerwa na przyszłość</Name>
+            <Code xsi:type='xs:string'>P</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Op - Ochrona przyrody</Name>
+            <Code xsi:type='xs:string'>Op</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Os - Ochrona środowiska</Name>
+            <Code xsi:type='xs:string'>Os</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>M - Wielofunkcyjny rozwój gospodarczy</Name>
+            <Code xsi:type='xs:string'>M</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>W - Sztuczne wyspy i konstrukcje</Name>
+            <Code xsi:type='xs:string'>W</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>L - Uwarunkowany środowiskowo rozwój lokalny</Name>
+            <Code xsi:type='xs:string'>L</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Pw - Rezerwa dla przyszłego rozwoju z dopuszczeniem wydobycia</Name>
+            <Code xsi:type='xs:string'>Pw</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Ip - Infrastruktura zapweniająca bezpieczny dostęp do portu i przystani</Name>
+            <Code xsi:type='xs:string'>Ip</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

@@ -1,0 +1,11 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>function_code</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>4</Length>
+    <Domain xsi:type='esri:CodedValueDomain'>
+        <DomainName>MspAreaFunction</DomainName>
+        <Owner>msp</Owner>
+    </Domain>
+</Field>

@@ -1,0 +1,8 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>globalid</Name>
+    <Type>esriFieldTypeGlobalID</Type>
+    <IsNullable>false</IsNullable>
+    <Required>true</Required>
+    <Editable>false</Editable>
+</Field>

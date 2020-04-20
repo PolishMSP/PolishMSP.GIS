@@ -1,0 +1,23 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>TimeScope</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>TimeScope</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>permament</Name>
+            <Code xsi:type='xs:string'>permament</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>temporal</Name>
+            <Code xsi:type='xs:string'>temporal</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>periodic</Name>
+            <Code xsi:type='xs:string'>periodic</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

@@ -1,0 +1,31 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>MspProcessStep</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>MspProcessStep</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>in the process of adoption</Name>
+            <Code xsi:type='xs:string'>adoption</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>under elaboration</Name>
+            <Code xsi:type='xs:string'>elaboration</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>legally binding or active</Name>
+            <Code xsi:type='xs:string'>legalForce</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>obsolete</Name>
+            <Code xsi:type='xs:string'>obsolete</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>in the process of preparation</Name>
+            <Code xsi:type='xs:string'>preparation</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

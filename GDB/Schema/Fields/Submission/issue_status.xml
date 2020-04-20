@@ -1,0 +1,12 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>issue_status</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>20</Length>
+    <DefaultValue xsi:type='xs:string'>open</DefaultValue>
+    <Domain xsi:type='esri:CodedValueDomain'>
+        <DomainName>IssueStatus</DomainName>
+        <Owner>msp</Owner>
+    </Domain>
+</Field>

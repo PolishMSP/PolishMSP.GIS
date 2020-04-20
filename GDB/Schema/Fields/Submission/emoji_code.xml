@@ -1,0 +1,8 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>emoji_code</Name>
+    <Type>esriFieldTypeString</Type>
+    <IsNullable>true</IsNullable>
+    <Length>4</Length>
+    <DefaultValue xsi:type='xs:string'>😃</DefaultValue>
+</Field>

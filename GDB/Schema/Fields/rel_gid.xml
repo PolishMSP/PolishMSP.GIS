@@ -1,0 +1,6 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>rel_gid</Name>
+    <Type>esriFieldTypeGUID</Type>
+    <IsNullable>true</IsNullable>
+</Field>

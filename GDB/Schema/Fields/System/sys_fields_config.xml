@@ -1,0 +1,15 @@
+
+    <ExtensionProperties xsi:type='esri:PropertySet'>
+        <PropertyArray xsi:type='esri:ArrayOfPropertySetProperty'></PropertyArray>
+    </ExtensionProperties>
+
+    <HasOID>true</HasOID>
+    <OIDFieldName>objectid</OIDFieldName>
+    <HasGlobalID>true</HasGlobalID>
+    <GlobalIDFieldName>globalid</GlobalIDFieldName>
+
+    <EditorTrackingEnabled>true</EditorTrackingEnabled>
+    <CreatorFieldName>created_user</CreatorFieldName>
+    <CreatedAtFieldName>created_date</CreatedAtFieldName>
+    <EditorFieldName>last_edited_user</EditorFieldName>
+    <EditedAtFieldName>last_edited_date</EditedAtFieldName>

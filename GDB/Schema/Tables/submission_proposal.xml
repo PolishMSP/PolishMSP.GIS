@@ -1,0 +1,138 @@
+
+<DataElement xsi:type='esri:DETable'>
+    <CatalogPath>/OC=submission_proposal</CatalogPath>
+    <Name>submission_proposal</Name>
+    <DatasetType>esriDTTable</DatasetType>
+    <DSID>38</DSID>
+    <CLSID>{7A566981-C114-11D2-8A28-006097AFF44E}</CLSID>
+
+    &sys_fields_config;
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+
+            &objectid;
+            &globalid;
+            &gid;
+
+            <Field xsi:type='esri:Field'>
+                <Name>submission_gid</Name>
+                <Type>esriFieldTypeGUID</Type>
+                <IsNullable>true</IsNullable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>area_dsc</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>false</IsNullable>
+                <Length>200</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>area_code</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>20</Length>
+                <!-- Zatoka Gdańska, Cały obszar planu -->
+            </Field>
+
+            &area_gid;
+            &ref_gid;
+
+            <Field xsi:type='esri:Field'>
+                <Name>proposal_no</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>8</Length>
+                <!-- 
+                    It's not Integer because participant can use something 
+                    like 1, 2, 3a, 3b, 3c, 4, ...
+                -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>proposal_id</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length>
+                <!-- 
+                    For internal use only by the contractor.
+                -->
+            </Field>
+
+            &function_code; 
+            
+            <Field xsi:type='esri:Field'>
+                <Name>function_code_sup</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>200</Length>
+                <!-- 
+                    Supplementary function codes 
+                -->
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>summary</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>false</IsNullable>
+                <Length>22000</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>project_status</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length>
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>SubmissionProjectStatus</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>project_info</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>22000</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>adoption_status</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>30</Length>
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>SubmissionAdoptionStatus</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>adoption_explanation</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>22000</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>adoption_comment</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>22000</Length>
+            </Field>
+
+            &notes;            
+            &editor_tracking;
+            
+        </FieldArray>
+    </Fields>
+
+
+    <Indexes xsi:type='esri:Indexes'>
+        <IndexArray xsi:type='esri:ArrayOfIndex'>
+            &submission_gid_index;
+        </IndexArray>
+    </Indexes>
+    
+</DataElement>

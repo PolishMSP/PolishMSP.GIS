@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root [
+
+    <!-- Domains -->
+    <!ENTITY SubmissionType             SYSTEM "Domains/SubmissionType.xml">
+    <!ENTITY SubmissionStatus           SYSTEM "Domains/SubmissionStatus.xml">
+    <!ENTITY SubmissionProjectStatus    SYSTEM "Domains/SubmissionProjectStatus.xml">
+    <!ENTITY SubmissionAdoptionStatus   SYSTEM "Domains/SubmissionAdoptionStatus.xml">
+
+    <!ENTITY IssueStatus                SYSTEM "Domains/IssueStatus.xml">
+    <!ENTITY StakeholderRole            SYSTEM "Domains/StakeholderRole.xml">
+    <!ENTITY RegulationCategory         SYSTEM "Domains/RegulationCategory.xml">
+    <!ENTITY RegulationType             SYSTEM "Domains/RegulationType.xml">
+
+    <!ENTITY MspAreaFunction            SYSTEM "Domains/MspAreaFunction.xml">
+    <!ENTITY MspProcessStep             SYSTEM "Domains/MspProcessStep.xml">
+    <!ENTITY LevelOfSpatialPlan         SYSTEM "Domains/LevelOfSpatialPlan.xml">
+    <!ENTITY MspRegulationNature        SYSTEM "Domains/MspRegulationNature.xml">
+    <!ENTITY MspSeaUse                  SYSTEM "Domains/MspSeaUse.xml">
+
+    <!ENTITY TimeScope                  SYSTEM "Domains/TimeScope.xml">
+    <!ENTITY VerticalScope              SYSTEM "Domains/VerticalScope.xml">
+
+    <!-- DataElements -->
+    <!ENTITY priority_area              SYSTEM "FeatureClasses/priority_area.xml">
+    <!ENTITY functional_area            SYSTEM "FeatureClasses/functional_area.xml">
+    <!ENTITY regulation_unit            SYSTEM "Tables/regulation_unit.xml">
+
+    <!ENTITY submission                 SYSTEM "Tables/submission.xml">
+    <!ENTITY submission__ATTACH         SYSTEM "Tables/submission__ATTACH.xml">
+    <!ENTITY submission_proposal        SYSTEM "Tables/submission_proposal.xml">
+    <!ENTITY submission_geom_pt         SYSTEM "FeatureClasses/submission_geom_pt.xml">
+    <!ENTITY submission_geom_ln         SYSTEM "FeatureClasses/submission_geom_ln.xml">
+    <!ENTITY submission_geom_pg         SYSTEM "FeatureClasses/submission_geom_pg.xml">
+
+    <!ENTITY feedback_issue             SYSTEM "Tables/feedback_issue.xml">
+    <!ENTITY feedback_comment           SYSTEM "Tables/feedback_comment.xml">
+    <!ENTITY feedback_review            SYSTEM "Tables/feedback_review.xml">
+    <!ENTITY feedback_emoji             SYSTEM "Tables/feedback_emoji.xml">
+
+    <!ENTITY stakeholder                SYSTEM "Tables/stakeholder.xml">
+    <!ENTITY process_step               SYSTEM "Tables/process_step.xml">
+
+    <!-- FeatureDatasets -->
+    <!ENTITY attachrel                  SYSTEM "FeatureDatasets/attachrel.xml">
+
+    <!-- Fields -->
+    <!ENTITY sys_fields_config          SYSTEM "Fields/System/sys_fields_config.xml">
+    <!ENTITY shape_fields_config        SYSTEM "Fields/System/shape_fields_config.xml">
+
+    <!ENTITY shape_pt                   SYSTEM "Fields/System/shape_pt.xml">
+    <!ENTITY shape_ln                   SYSTEM "Fields/System/shape_ln.xml">
+    <!ENTITY shape_pg                   SYSTEM "Fields/System/shape_pg.xml">
+
+    <!ENTITY objectid                   SYSTEM "Fields/System/objectid.xml">
+    <!ENTITY globalid                   SYSTEM "Fields/System/globalid.xml">
+    <!ENTITY editor_tracking            SYSTEM "Fields/System/editor_tracking.xml">
+
+    <!ENTITY gid                        SYSTEM "Fields/gid.xml">
+    <!ENTITY ref_gid                    SYSTEM "Fields/ref_gid.xml">
+    <!ENTITY rel_gid                    SYSTEM "Fields/rel_gid.xml">
+    <!ENTITY rel_type                   SYSTEM "Fields/rel_type.xml">
+    <!ENTITY description                SYSTEM "Fields/description.xml">
+    <!ENTITY submission_status          SYSTEM "Fields/submission_status.xml">
+    <!ENTITY notes                      SYSTEM "Fields/notes.xml">
+    <!ENTITY geom_src                   SYSTEM "Fields/geom_src.xml">
+    <!ENTITY name                       SYSTEM "Fields/name.xml">
+    <!ENTITY number                     SYSTEM "Fields/number.xml">
+    <!ENTITY sort_val                   SYSTEM "Fields/sort_val.xml">    
+
+    <!ENTITY valid_from_to              SYSTEM "Fields/valid_from_to.xml">
+   
+    <!ENTITY area_gid                   SYSTEM "Fields/MspArea/area_gid.xml"> 
+    <!ENTITY area_no                    SYSTEM "Fields/MspArea/area_no.xml">  
+    <!ENTITY area_no_old                SYSTEM "Fields/MspArea/area_no_old.xml"> 
+    <!ENTITY area_variant               SYSTEM "Fields/MspArea/area_variant.xml">
+    <!ENTITY area_nov                   SYSTEM "Fields/MspArea/area_nov.xml">   
+    <!ENTITY area_id                    SYSTEM "Fields/MspArea/area_id.xml">   
+    <!ENTITY area_label                 SYSTEM "Fields/MspArea/area_label.xml">  
+    <!ENTITY geod_area                  SYSTEM "Fields/MspArea/geod_area.xml">
+    <!ENTITY msp_desg                   SYSTEM "Fields/MspArea/msp_desg.xml"> 
+
+    <!ENTITY function_code              SYSTEM "Fields/MspFunction/function_code.xml">
+    <!ENTITY function_group             SYSTEM "Fields/MspFunction/function_group.xml">
+    <!ENTITY allowed_function           SYSTEM "Fields/MspFunction/allowed_function.xml">
+    <!ENTITY restricted_function        SYSTEM "Fields/MspFunction/restricted_function.xml">
+    <!ENTITY forbidden_function         SYSTEM "Fields/MspFunction/forbidden_function.xml">
+    <!ENTITY time_scope                 SYSTEM "Fields/MspFunction/time_scope.xml">
+    <!ENTITY vertical_scope             SYSTEM "Fields/MspFunction/vertical_scope.xml">
+
+    <!ENTITY subm_gid                   SYSTEM "Fields/Submission/subm_gid.xml">
+    <!ENTITY issue_status               SYSTEM "Fields/Submission/issue_status.xml">
+    <!ENTITY ref_no_pattern             SYSTEM "Fields/Submission/ref_no_pattern.xml">
+    <!ENTITY resolver_id                SYSTEM "Fields/Submission/resolver_id.xml">
+    <!ENTITY emoji_code                 SYSTEM "Fields/Submission/emoji_code.xml">
+
+    <!ENTITY plan_id                    SYSTEM "Fields/SpatialPlan/plan_id.xml">
+    <!ENTITY lex_id                     SYSTEM "Fields/SpatialPlan/lex_id.xml">
+    <!ENTITY process_step_code          SYSTEM "Fields/SpatialPlan/process_step_code.xml">
+
+
+    <!-- Indexes -->
+    <!ENTITY ref_gid_index              SYSTEM "Indexes/ref_gid_index.xml">
+    <!ENTITY rel_gid_index              SYSTEM "Indexes/rel_gid_index.xml">
+    <!ENTITY area_gid_index             SYSTEM "Indexes/area_gid_index.xml">
+    <!ENTITY priority_gid_index         SYSTEM "Indexes/priority_gid_index.xml">
+    <!ENTITY submission_gid_index       SYSTEM "Indexes/submission_gid_index.xml">
+    <!ENTITY priority_code_index        SYSTEM "Indexes/priority_code_index.xml">
+    
+]>
+
+
+<esri:Workspace 
+    xmlns:esri='http://www.esri.com/schemas/ArcGIS/10.6' 
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+    xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+
+    <WorkspaceDefinition xsi:type='esri:WorkspaceDefinition'>
+        <WorkspaceType>esriRemoteDatabaseWorkspace</WorkspaceType>
+        <Version></Version>
+
+        <Domains xsi:type='esri:ArrayOfDomain'>
+            &SubmissionType;
+            &SubmissionStatus;
+            &SubmissionProjectStatus;
+            &SubmissionAdoptionStatus;
+
+            &IssueStatus;
+            &StakeholderRole;
+            &RegulationCategory;
+            &RegulationType;
+
+            &MspAreaFunction;
+            &MspProcessStep;
+            &LevelOfSpatialPlan;
+            &MspRegulationNature;
+            &MspSeaUse;
+
+            &TimeScope;
+            &VerticalScope;
+        </Domains>
+
+        <DatasetDefinitions xsi:type='esri:ArrayOfDataElement'>
+            &priority_area;
+            &functional_area;
+            &regulation_unit;
+
+            &submission;
+            &submission__ATTACH;
+            &submission_proposal;
+            &submission_geom_pt;
+            &submission_geom_ln;
+            &submission_geom_pg;
+
+            &feedback_issue;
+            &feedback_comment;
+            &feedback_review;
+            &feedback_emoji;
+
+            &stakeholder;
+            &process_step;
+
+            &attachrel;
+        </DatasetDefinitions>
+
+    </WorkspaceDefinition>
+
+    <WorkspaceData xsi:type='esri:WorkspaceData'></WorkspaceData>
+
+</esri:Workspace>

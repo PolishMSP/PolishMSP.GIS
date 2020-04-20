@@ -1,0 +1,38 @@
+
+<DataElement xsi:type='esri:DETable'>
+    <CatalogPath>/OC=feedback_comment</CatalogPath>
+    <Name>feedback_comment</Name>
+    <DatasetType>esriDTTable</DatasetType>
+    <DSID>11</DSID>
+    <CLSID>{7A566981-C114-11D2-8A28-006097AFF44E}</CLSID>
+    
+    <!-- 
+        Anyone can add comment to any issue or other comment.  
+    -->
+    
+    &sys_fields_config;
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+
+            &objectid;
+            &globalid;
+            &gid;
+
+            &ref_gid;
+            &description;
+            &submission_status;
+            
+            &editor_tracking;
+            
+        </FieldArray>
+    </Fields>
+
+
+    <Indexes xsi:type='esri:Indexes'>
+        <IndexArray xsi:type='esri:ArrayOfIndex'>
+            &ref_gid_index;            
+        </IndexArray>
+    </Indexes>
+
+</DataElement>

@@ -1,0 +1,33 @@
+
+<DataElement xsi:type='esri:DETable'>
+    <CatalogPath>/OC=feedback_emoji</CatalogPath>
+    <Name>feedback_emoji</Name>
+    <DatasetType>esriDTTable</DatasetType>
+    <DSID>12</DSID>
+    <CLSID>{7A566981-C114-11D2-8A28-006097AFF44E}</CLSID>
+
+    &sys_fields_config;
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+
+            &objectid;
+            &globalid;
+            <!-- &gid; -->
+
+            &ref_gid;
+            &emoji_code;
+            
+            &editor_tracking;
+
+        </FieldArray>
+    </Fields>
+
+
+    <Indexes xsi:type='esri:Indexes'>
+        <IndexArray xsi:type='esri:ArrayOfIndex'>
+            &ref_gid_index;            
+        </IndexArray>
+    </Indexes>
+    
+</DataElement>

@@ -1,0 +1,31 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>MspRegulationNature</DomainName>
+    <FieldType>esriFieldTypeString</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>MspRegulationNature</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>binding for developers</Name>
+            <Code xsi:type='xs:string'>bindingForDevelopers</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>binding only for authorities</Name>
+            <Code xsi:type='xs:string'>bindingOnlyForAuthorities</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>generally binding</Name>
+            <Code xsi:type='xs:string'>generallyBinding</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>not binding</Name>
+            <Code xsi:type='xs:string'>nonBinding</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>defined in legislation</Name>
+            <Code xsi:type='xs:string'>definedInLegislation</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

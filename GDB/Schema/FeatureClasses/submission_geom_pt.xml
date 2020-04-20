@@ -1,0 +1,28 @@
+
+<DataElement xsi:type='esri:DEFeatureClass'>
+    <CatalogPath>/FC=submission_geom_pt</CatalogPath>
+    <Name>submission_geom_pt</Name>
+    <DatasetType>esriDTFeatureClass</DatasetType>
+    <DSID>6</DSID>
+    <CLSID>{52353152-891A-11D0-BEC6-00805F7C4268}</CLSID>
+
+    &sys_fields_config;
+    &shape_fields_config;    
+    <ShapeType>esriGeometryPoint</ShapeType>
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+
+            &shape_pt;
+            &objectid;
+            &globalid;
+            &gid;
+
+            &subm_gid;
+            &geom_src;
+            
+            &editor_tracking;
+
+        </FieldArray>
+    </Fields>
+</DataElement>

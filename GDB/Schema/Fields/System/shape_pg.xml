@@ -1,0 +1,16 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>shape</Name>
+    <Type>esriFieldTypeGeometry</Type>
+    <IsNullable>true</IsNullable>
+    <Required>true</Required>
+    <GeometryDef xsi:type='esri:GeometryDef'>
+        <AvgNumPoints>0</AvgNumPoints>
+        <GeometryType>esriGeometryPolygon</GeometryType>
+        <HasM>false</HasM>
+        <HasZ>false</HasZ>
+        <SpatialReference xsi:type='esri:GeographicCoordinateSystem'>
+            <WKID>4258</WKID>
+        </SpatialReference>
+    </GeometryDef>
+</Field>

@@ -1,0 +1,40 @@
+
+<DataElement xsi:type='esri:DETable'>
+    <CatalogPath>/OC=stakeholder</CatalogPath>
+    <Name>stakeholder</Name>
+    <DatasetType>esriDTTable</DatasetType>
+    <DSID>16</DSID>
+    <CLSID>{7A566981-C114-11D2-8A28-006097AFF44E}</CLSID>
+
+    &sys_fields_config;
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+        
+            &objectid;
+            &globalid;
+
+            <Field xsi:type='esri:Field'>
+                <Name>org_id</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>50</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>org_role</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>true</IsNullable>
+                <Length>20</Length>
+                <DefaultValue xsi:type='xs:string'>participant</DefaultValue>
+                <Domain xsi:type='esri:CodedValueDomain'>
+                    <DomainName>StakeholderRole</DomainName>
+                    <Owner>msp</Owner>
+                </Domain>
+            </Field>
+            
+            &editor_tracking;
+
+        </FieldArray>
+    </Fields>
+</DataElement>

@@ -1,0 +1,45 @@
+
+<DataElement xsi:type='esri:DEFeatureClass'>
+    <CatalogPath>/FC=priority_area</CatalogPath>
+    <Name>priority_area</Name>
+    <DatasetType>esriDTFeatureClass</DatasetType>
+    <DSID>18</DSID>
+    <CLSID>{52353152-891A-11D0-BEC6-00805F7C4268}</CLSID>
+
+    &sys_fields_config;
+    &shape_fields_config;    
+    <ShapeType>esriGeometryPolygon</ShapeType>
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+
+            &shape_pg;
+            &objectid;
+            &globalid;
+            &gid;
+
+            &area_no;
+            &area_no_old;
+            &area_variant;
+            &area_nov;
+            &area_id;
+
+            &function_code;
+            &function_group;
+            &description;
+
+            <!--  time_scope:       this is priority_area - its primary function must not have any time limits. -->
+            &vertical_scope;
+            
+            &geod_area;
+            &valid_from_to;
+            &plan_id;
+            &lex_id;
+            &msp_desg;
+
+            &notes;
+            &editor_tracking;
+            
+        </FieldArray>
+    </Fields>
+</DataElement>

@@ -1,0 +1,6 @@
+
+<Field xsi:type='esri:Field'>
+    <Name>number</Name>
+    <Type>esriFieldTypeInteger</Type>
+    <IsNullable>true</IsNullable>
+</Field>

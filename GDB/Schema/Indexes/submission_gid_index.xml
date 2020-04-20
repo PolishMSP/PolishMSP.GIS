@@ -1,0 +1,13 @@
+
+<Index xsi:type='esri:Index'>
+    <Name>submission_gid</Name>
+    <IsUnique>false</IsUnique>
+    <IsAscending>true</IsAscending>
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+            <Field xsi:type='esri:Field'>
+                <Name>submission_gid</Name>
+            </Field>
+        </FieldArray>
+    </Fields>
+</Index>

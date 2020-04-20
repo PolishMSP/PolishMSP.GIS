@@ -1,0 +1,67 @@
+
+<Domain xsi:type='esri:CodedValueDomain'>
+    <DomainName>RegulationCategory</DomainName>
+    <FieldType>esriFieldTypeInteger</FieldType>
+    <MergePolicy>esriMPTDefaultValue</MergePolicy>
+    <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+    <Description>RegulationCategory</Description>
+    <Owner>msp</Owner>
+    <CodedValues xsi:type='esri:ArrayOfCodedValue'>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Oznaczenie literowe</Name>
+            <Code xsi:type='xs:int'>1</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Numer akwenu</Name>
+            <Code xsi:type='xs:int'>2</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Opis położenia</Name>
+            <Code xsi:type='xs:int'>3</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Pole powierzchni</Name>
+            <Code xsi:type='xs:int'>4</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Funkcja podstawowa</Name>
+            <Code xsi:type='xs:int'>5</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Funkcja dopuszczalna</Name>
+            <Code xsi:type='xs:int'>6</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Zakaz</Name>
+            <Code xsi:type='xs:int'>71</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Ograniczenie</Name>
+            <Code xsi:type='xs:int'>72</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Inwestycje celu publicznego</Name>
+            <Code xsi:type='xs:int'>8</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Warunki</Name>
+            <Code xsi:type='xs:int'>9</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Ustalenia wiążące samorządy</Name>
+            <Code xsi:type='xs:int'>10</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Zasady</Name>
+            <Code xsi:type='xs:int'>11</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Uwarunkowania</Name>
+            <Code xsi:type='xs:int'>12</Code>
+        </CodedValue>
+        <CodedValue xsi:type='esri:CodedValue'>
+            <Name>Inne informacje</Name>
+            <Code xsi:type='xs:int'>13</Code>
+        </CodedValue>
+    </CodedValues>
+</Domain>

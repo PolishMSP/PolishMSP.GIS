@@ -1,0 +1,80 @@
+
+<DataElement xsi:type='esri:DETable'>
+    <CatalogPath>/OC=submission__ATTACH</CatalogPath>
+    <Name>submission__ATTACH</Name>
+    <DatasetType>esriDTTable</DatasetType>
+    <DSID>420</DSID>
+    <CLSID>{7A566981-C114-11D2-8A28-006097AFF44E}</CLSID>
+    
+    <RelationshipClassNames xsi:type='esri:Names'></RelationshipClassNames>
+
+    <ExtensionProperties xsi:type='esri:PropertySet'>
+        <PropertyArray xsi:type='esri:ArrayOfPropertySetProperty'></PropertyArray>
+    </ExtensionProperties>
+
+    <HasOID>true</HasOID>
+    <OIDFieldName>attachmentid</OIDFieldName>
+    <HasGlobalID>true</HasGlobalID>
+    <GlobalIDFieldName>globalid</GlobalIDFieldName>
+
+    <EditorTrackingEnabled>true</EditorTrackingEnabled>
+    <CreatorFieldName>created_user</CreatorFieldName>
+    <CreatedAtFieldName>created_date</CreatedAtFieldName>
+    <EditorFieldName>last_edited_user</EditorFieldName>
+    <EditedAtFieldName>last_edited_date</EditedAtFieldName>
+
+    <Fields xsi:type='esri:Fields'>
+        <FieldArray xsi:type='esri:ArrayOfField'>
+
+            <Field xsi:type='esri:Field'>
+                <Name>attachmentid</Name>
+                <Type>esriFieldTypeOID</Type>
+                <IsNullable>false</IsNullable>
+                <Required>true</Required>
+                <Editable>false</Editable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>globalid</Name>
+                <Type>esriFieldTypeGlobalID</Type>
+                <IsNullable>false</IsNullable>
+                <Editable>false</Editable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>rel_globalid</Name>
+                <Type>esriFieldTypeGUID</Type>
+                <IsNullable>false</IsNullable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>content_type</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>false</IsNullable>
+                <Length>150</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>att_name</Name>
+                <Type>esriFieldTypeString</Type>
+                <IsNullable>false</IsNullable>
+                <Length>250</Length>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>data_size</Name>
+                <Type>esriFieldTypeInteger</Type>
+                <IsNullable>false</IsNullable>
+            </Field>
+
+            <Field xsi:type='esri:Field'>
+                <Name>data</Name>
+                <Type>esriFieldTypeBlob</Type>
+                <IsNullable>true</IsNullable>
+            </Field>
+            
+            &editor_tracking;
+
+        </FieldArray>
+    </Fields>
+</DataElement>
